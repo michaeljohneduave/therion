@@ -1,0 +1,19 @@
+// Place your settings in this file to overwrite default and user settings.
+{
+  "editor.renderWhitespace": "boundary",
+  "files.associations": {
+    // extension name : html
+    "*.js": "javascriptreact"
+  },
+  "search.exclude": {
+    "**/node_modules": true,
+    "**/bower_components": true,
+    "**/build": true
+  },
+  "editor.fontSize": 12,
+	"window.zoomLevel": -1,
+  "editor.snippetSuggestions": "top",
+  "editor.tabSize": 2,
+  "editor.detectIndentation": false,
+  "editor.insertSpaces": false
+}

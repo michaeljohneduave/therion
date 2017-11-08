@@ -8,7 +8,7 @@ const Link = ({ active, children, onClick }) => {
 
   return (
     <a href="#"
-       onClick={e => {
+       onClick={(e) => {
          e.preventDefault();
          onClick();
        }}
@@ -21,7 +21,7 @@ const Link = ({ active, children, onClick }) => {
 Link.propTypes = {
   active: PropTypes.bool.isRequired,
   children: PropTypes.node.isRequired,
-  onClick: PropTypes.func.isRequired
+  onClick: PropTypes.func.isRequired,
 };
 
 export default Link;
